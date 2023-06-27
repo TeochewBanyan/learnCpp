@@ -1,6 +1,7 @@
 #include <iostream>
 int plusOne(int a);
 int plusTwo(int);
+int getResult(int a, int (*pf)(int));
 // def two funcs
 // a+1
 int plusOne(int a)
