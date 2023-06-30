@@ -1,6 +1,6 @@
 #include <iostream>
 
-int &Add(int &a, const int &source);
+int &MyAdd(int &a, const int &source);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     return 0;
 }
 
-const int &Add(int &a, const int &source)
+int &MyAdd(int &a, const int &source)
 {
     a += source;
     return a;
