@@ -7,7 +7,7 @@ int main()
     int a = 1, source = 5;
     int four = 4;
 
-    Add(a, source) = four;
+    MyAdd(a, source) = four;
     std::cout << "The result is " << a << std::endl;
     return 0;
 }
